@@ -22,7 +22,7 @@ def setup():
     chromeOptions.add_experimental_option("prefs",prefs)
 
     browser = webdriver.Chrome(driverPath,chrome_options=chromeOptions)
-    browser.set_window_position(-10000000, 0)       #move chrome away from view
+    #browser.set_window_position(-10000000, 0)       #move chrome away from view
     print('Fetching login page..')
     browser.get(url)
     print('reached login page')    
