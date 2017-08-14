@@ -12,7 +12,9 @@
 4. sys
 
 ## How to Use:
-- Make sure python3 and selenium are installed on your system.
+- Make sure selenium and Chrome are installed on your system.
+  - Selenium Installation(from command line): pip install selenium 
+  - You probably know how to install Chrome
 - Clone this repository, get to the directory and run using 'python3 automation.py'
 - Provide your instagram username and password (It is not stored and deleted as soon as program stops!)
 - Povide the number of posts you wish to like.
