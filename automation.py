@@ -97,7 +97,11 @@ def like(number_posts):
         if elements[i].text=='Like':
             print('Liked')
             likeNumber+=1
-            elements[i].click()
+            try:
+                elements[i].click()
+            except:
+                print('some excetion for ',i)
+
     
     print('Liking Finished!!\n{} posts liked!'.format(likeNumber))
 
