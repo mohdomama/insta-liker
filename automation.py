@@ -107,8 +107,9 @@ def like(number_posts):
 
 def main():
     
-    username = input('Enter your instagram username:\n')
-    password = getpass.getpass('Enter your instagram password:\n')
+    keys = open('keys.txt',mode='rt')
+    username = keys.readline().strip()
+    password = keys.readline().strip()
     number_posts = input('Enter the numer of posts you wish to like:\n')
     start_time = time.time()
     setup()
