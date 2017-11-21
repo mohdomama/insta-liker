@@ -4,6 +4,7 @@
 ### Tech Stack  
 - Selenium Webdriver
 - Chrome Driver (included in the repository)
+- Python3
 
 ### Python libraries used:
 1. os
